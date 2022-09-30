@@ -20,8 +20,9 @@ public class subCommand_bal extends EconomyCommand {
 
     @Override
     public void run(CommandSource sender, String[] args, SwoftyEconomy plugin) {
-        if (args.length < 2) {
-            send(SUtil.variableize(SUtil.translateColorWords(plugin.messages.getString("messages.command.usage-command")), Arrays.asList(Map.entry("$USAGE", "/economy bal <name>"))));
+        if (args.length == 1) {
+            send(SUtil.variableize(SUtil.translateColorWords(plugin.messages.getString("messages.command.balance")),
+                    Arrays.asList(Map.entry("$NAME", sender.getPlayer().getName()), Map.entry("$BALANCE", String.valueOf(sender.getUser().getBalance())))));
             return;
         }
 

@@ -13,7 +13,6 @@ messages:
     usage-overall:
       - "&cSwoftyEconomy &7- &fMade by Swofty#0001"
       - "&8- &e/economy bal <name>"
-      - "&8- &e/economy leaderboard"
       - "&8- &e/economy give <name> <amount>"
       - "&8- &e/economy setbal <name> <amount>"
       - "&8- &e/economy earn"
@@ -25,3 +24,4 @@ messages:
     give-balance: "&bYou have given &c$NAME &e$$AMOUNT"
     received-balance: "&bYou have received &e$$AMOUNT&b from &c$NAME"
     not-enough: "&cYou do not have enough money to do this"
+    earn: "&bYou have earned &e$$AMOUNT"
