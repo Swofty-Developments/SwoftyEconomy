@@ -1,4 +1,3 @@
 name: SwoftyEconomy
 version: '${project.version}'
-main: net.swofty.swoftyeconomy.SwoftyEconomy
-api-version: 1.14
+main: net.swofty.economy.SwoftyEconomy

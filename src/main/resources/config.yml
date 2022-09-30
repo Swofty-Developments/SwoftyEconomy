@@ -1,0 +1,8 @@
+#
+#      Swofty Economy
+#       Swofty#0001
+#
+#      Plugin Config
+#
+
+mongo-uri: "mongodb://localhost"

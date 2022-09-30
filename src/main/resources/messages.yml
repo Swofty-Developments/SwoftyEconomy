@@ -1,0 +1,27 @@
+#
+#      Swofty Economy
+#       Swofty#0001
+#
+#     Messages Config
+#
+
+messages:
+  command:
+    no-permission: "%%red%%You do not have permission for this command!"
+    usage-command: "%%red%%Usage: $USAGE"
+    cooldown: "%%red%%You are currently under cooldown for another $SECONDS seconds"
+    usage-overall:
+      - "&cSwoftyEconomy &7- &fMade by Swofty#0001"
+      - "&8- &e/economy bal <name>"
+      - "&8- &e/economy leaderboard"
+      - "&8- &e/economy give <name> <amount>"
+      - "&8- &e/economy setbal <name> <amount>"
+      - "&8- &e/economy earn"
+    name-already-taken: "&cThere is already a parkour named &e$NAME"
+    invalid-number-input: "&e$INPUT &cis not a valid number!"
+    player-not-found:  "&cCould not find a player named &e$NAME"
+    balance: "&c$NAME&b's balance is &e$$BALANCE"
+    set-balance: "&bYou have set &c$NAME&b's balance to &e$$BALANCE"
+    give-balance: "&bYou have given &c$NAME &e$$AMOUNT"
+    received-balance: "&bYou have received &e$$AMOUNT&b from &c$NAME"
+    not-enough: "&cYou do not have enough money to do this"
